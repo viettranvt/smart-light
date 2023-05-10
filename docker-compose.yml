@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    image: server-api
+    container_name: server-api
+    ports:
+      - '3000:3000'
+
+# cac tham so hay dung
+# volumes
+# environment
+
+# lenh chay
+# docker-compose up -d
+# lenh dung 
+# docker-compose down

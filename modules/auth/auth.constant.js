@@ -1,0 +1,14 @@
+module.exports = {
+    SALT_LENGTH: 10,
+    TOKEN_EXPIRED_IN_HOUR: 1,
+    LOGGER: {
+        CONTROLLER: 'AUTH_CONTROLLER',
+        SERVICE: 'AUTH_SERVICE'
+    },
+    MESSAGES: {
+        LOGIN: {
+            MAIL_NOT_FOUND_OR_PASSWORD_NOT_MATCH: 'MAIL_NOT_FOUND_OR_PASSWORD_NOT_MATCH',
+            LOGIN_SUCCESSFULLY: 'LOGIN_SUCCESSFULLY'
+        }
+    }
+}
